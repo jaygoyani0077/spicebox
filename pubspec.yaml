@@ -1,0 +1,172 @@
+name: spice_box
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_nav_bar: ^5.0.6
+  carousel_slider: ^4.0.0-nullsafety.0
+  carousel_pro: ^1.0.0
+  carousel_nullsafety: ^0.1.1
+  vibration: 1.7.6
+  flip_card: ^0.6.0
+  slider_button: ^2.0.0
+  url_launcher: ^6.1.6
+  smooth_page_indicator: ^1.0.0+2
+  easy_splash_screen: ^1.0.4
+  splashscreen: ^1.3.5
+  intl: ^0.17.0
+  firebase_core:
+  firebase_database:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - ast/img/2.png
+    - ast/img/5.jpg
+    - ast/img/b.jpg
+    - ast/img/f.jpg
+    - ast/img/e.jpeg
+    - ast/img/g.jpeg
+    - ast/img/ftr.png
+    - ast/img/figma.png
+    - ast/img/pizzam.png
+    - ast/img/burgerm.png
+    - ast/img/sandwichm.png
+    - ast/img/p1.png
+    - ast/img/p2.png
+    - ast/img/veg.png
+    - ast/img/p3.png
+    - ast/img/p4.png
+    - ast/img/p5.png
+    - ast/img/p6.png
+    - ast/img/p7.jpeg
+    - ast/img/burger1.png
+    - ast/img/b1.png
+    - ast/img/b2.png
+    - ast/img/b3.png
+    - ast/img/b4.png
+    - ast/img/b5.png
+    - ast/img/s.png
+    - ast/img/s1.png
+    - ast/img/s2.png
+    - ast/img/s3.png
+    - ast/img/s4.png
+    - ast/img/s5.png
+    - ast/img/nonveg.png
+    - ast/img/offer.png
+    - ast/img/pizzahome.jpg
+    - ast/img/burgerhome.jpg
+    - ast/img/sandwichhome.jpeg
+    - ast/img/momoshome.jpeg
+    - ast/img/panipurihome.jpg
+    - ast/img/m1.png
+    - ast/img/m2.png
+    - ast/img/m3.png
+    - ast/img/m4.png
+    - ast/img/m5.png
+    - ast/img/momosm.png
+    - ast/img/colddrinkhome.jpeg
+    - ast/img/panipurim.jpeg
+    - ast/img/colddrinkm.jpeg
+    - ast/img/c1.png
+    - ast/img/c2.jpeg
+    - ast/img/c3.jpeg
+    - ast/img/c4.jpeg
+    - ast/img/c5.jpeg
+    - ast/img/c2.png
+    - ast/img/c3.png
+    - ast/img/c4.png
+    - ast/img/c5.png
+    - ast/img/pp1.png
+    - ast/img/pp2.png
+    - ast/img/pp3.png
+    - ast/img/pp4.png
+    - ast/img/pp5.png
+    - ast/img/offer4.png
+    - ast/img/offer5.png
+    - ast/img/offer6.png
+    - ast/img/ccf.png
+    - ast/img/ccb.png
+    - ast/img/gpay.png
+    - ast/img/like.png
+    - ast/img/splash.png
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
